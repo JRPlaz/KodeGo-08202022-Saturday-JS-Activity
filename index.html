@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Saturday Javascript Activity</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!-- Icon Scout -->
+        <link rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
+        <style>
+        body {
+          background:url(contactbg.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        
+    </style>
+    </head>
+    <body>
+
+        <!-- Contact Form Start -->
+        <div class="container">
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title1">Activity</h3>
+                    <p class="text">
+                        Create a program that accepts grades with the subjects
+                        Computer, Math, English, Science and Filipino
+                        <br>
+                        In the program, the user should get their GWA and their
+                        grade mark to it as follows:
+                        <br><br>
+                        A - 92% Above<br>
+                        B - 89% - 91%<br>
+                        C - 84% - 88%<br>
+                        D - 80% - 83%<br>
+                        E - 79% below <hr> <br>
+                    <h3 class="title1" style="margin-top: -20px;">Result</h3>    
+                    </p>
+                    <div class="result">
+                        <h2 ></h2>
+                        <h1 style="color: grey;"></h1>
+                    </div>
+                </div>
+
+                
+
+                <div class="contact-form">
+                <!-- <div class="grade-form"> -->
+
+                    <form action="index.html" autocomplete="off">
+                        <h3 class="title2" style="margin-bottom: 30px;">Enter Grades</h3>
+                        <div class="input-container">
+                            <input type="text" class="input" id="Computer"/>
+                            <label for="">Computer</label>
+                            <span>Computer</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="input" id="Math"/>
+                            <label for="">Math</label>
+                            <span>Math</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="input" id="English"/>
+                            <label for="">English</label>
+                            <span>English</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="input" id="Science"/>
+                            <label for="">Science</label>
+                            <span>Science</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" class="input" id="Filipino"/>
+                            <label for="">Filipino</label>
+                            <span>Filipino</span>
+                        </div>
+                        <!-- <input type="submit" value="Get GWA" class="fbtn" /> -->
+                        <div>
+                            <input
+                            type="button"
+                            value="Get GWA"
+                            class="fbtn"
+                            onclick="calculate()"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form Ends -->
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
